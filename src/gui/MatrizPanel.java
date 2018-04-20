@@ -25,7 +25,6 @@ public class MatrizPanel extends JPanel{
         for(int i=0; i<matriz.length; i++){
             for(int j=0; j<matriz[i].length; j++){
                 JLabel casilla = new JLabel();
-                System.out.printf("[%d] ", matriz[i][j]);
                 casilla.setText("["+matriz[i][j]+"]");
                 casilla.setBounds(j*60+40, i*60+40, 100, 100);
                 casilla.setForeground(Color.RED);
